@@ -15,7 +15,7 @@ function convertToBase10() {
         container.removeChild(document.getElementById('result'));
     }
     catch {}
-    resultDiv = document.createElement('div');    // Devuelve el resultado
+    resultDiv = document.createElement('div');                                          // Devuelve el resultado
     resultDiv.innerHTML = 'El resultado es ' + result.toString();
     resultDiv.id = 'result';
     container.appendChild(resultDiv)

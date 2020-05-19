@@ -1,12 +1,18 @@
 body {
   text-align: center;
+  background-color: #5BC0EB;
+}
+
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 80px;
+  font-weight: 500;
 }
 
 #container {
   display: inline-block;
   width: 400px;
   height: 300px;
-  background-color: #5BC0EB;
   padding: 5%;
 }
 
@@ -25,7 +31,7 @@ form {
 
 label {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 500;
 }
 
@@ -45,14 +51,14 @@ button {
   -ms-grid-column: 2;
   grid-column: 2;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 500;
 }
 
 #result {
   margin-top: 30px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 500;
 }
 /*# sourceMappingURL=styles.css.map */
