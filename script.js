@@ -10,7 +10,7 @@ function convertToBase10() {
             result += base ** (i - 1) * currentNumber;                                  // Cambia el resultado a la base a la potencia de 
         }                                                                               // la posición por el número de esta iteración
     }
-    container = document.getElementById('container');
+    container = document.getElementById('container');                                   // Muestra el resultado
     try {
         container.removeChild(document.getElementById('result'));
     }
